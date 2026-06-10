@@ -2,25 +2,25 @@
   "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles/role-1",
   "type": "Concept",
   "prefLabel": {
-    "en": "1st assistant camera",
-    "de": "1. Kameraassistenz"
+    "de": "1. Kameraassistenz",
+    "en": "1st assistant camera"
   },
   "altLabel": {
-    "en": [
-      "camera operator",
-      "focus puller"
-    ],
     "de": [
       "1. Kameraassistentin",
       "1. Kameraassistent"
+    ],
+    "en": [
+      "camera operator",
+      "focus puller"
     ]
   },
   "inScheme": [
     {
       "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles/",
       "title": {
-        "en": "arkumu Roles Vocabulary",
-        "de": "arkumu Rollen Vokabular"
+        "de": "arkumu Rollen Vokabular",
+        "en": "arkumu Roles Vocabulary"
       }
     }
   ],
@@ -33,8 +33,8 @@
     {
       "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles/",
       "title": {
-        "en": "arkumu Roles Vocabulary",
-        "de": "arkumu Rollen Vokabular"
+        "de": "arkumu Rollen Vokabular",
+        "en": "arkumu Roles Vocabulary"
       }
     }
   ],

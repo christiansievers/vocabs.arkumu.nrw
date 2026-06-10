@@ -2,25 +2,25 @@
   "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles/role-2",
   "type": "Concept",
   "prefLabel": {
-    "en": "2nd assistant camera",
-    "de": "2. Kameraassistenz"
+    "de": "2. Kameraassistenz",
+    "en": "2nd assistant camera"
   },
   "altLabel": {
-    "en": [
-      "clapper loader",
-      "film loader"
-    ],
     "de": [
       "2. Kamerassistentin",
       "2. Kamerassistent"
+    ],
+    "en": [
+      "clapper loader",
+      "film loader"
     ]
   },
   "inScheme": [
     {
       "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles/",
       "title": {
-        "en": "arkumu Roles Vocabulary",
-        "de": "arkumu Rollen Vokabular"
+        "de": "arkumu Rollen Vokabular",
+        "en": "arkumu Roles Vocabulary"
       }
     }
   ],
@@ -33,8 +33,8 @@
     {
       "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles/",
       "title": {
-        "en": "arkumu Roles Vocabulary",
-        "de": "arkumu Rollen Vokabular"
+        "de": "arkumu Rollen Vokabular",
+        "en": "arkumu Roles Vocabulary"
       }
     }
   ],
