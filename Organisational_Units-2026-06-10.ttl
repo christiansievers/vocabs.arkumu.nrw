@@ -1,0 +1,2419 @@
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vocab: <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>
+  dct:title "Organizational Units"@en, "Organisationseinheiten"@de;
+  dct:description "Organisationseinheiten umfassen Einrichtungen wie Studiengänge, Forschungsinstitute oder Archive der einliefernden Hochschulen. Einheiten externer Hochschulen werden durch die Organisationseinheit Kooperationen ausgedrückt."@de,
+    "Organizational Units include degree programs, research institutes, or archives of the contributing universities. Units belonging to external universities are represented through the Organizational Unit Cooperations."@en;
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1>
+  a skos:Concept;
+  dct:identifier "1";
+  skos:prefLabel "Folkwang University of the Arts"@en, "Folkwang Universität der Künste"@de .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-2>
+  a skos:Concept;
+  dct:identifier "2";
+  skos:prefLabel "German-French Musicology Study Programme (B.A./Licence des Artes et Sciences humaines)"@en,
+    "Deutsch-französischer Studiengang Musikwissenschaft (B.A./Licence des Artes et Sciences humaines)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-3>
+  a skos:Concept;
+  dct:identifier "3";
+  skos:prefLabel "Concert Study Course of Excellence"@en, "Exzellenzstudiengang Konzertexamen (Zertifikat)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-4>
+  a skos:Concept;
+  dct:identifier "4";
+  skos:prefLabel "Diploma Programme Physical Theatre (Artist Diploma)"@en, "Diplomstudiengang Physical Theatre (Artist Diploma)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-5>
+  a skos:Concept;
+  dct:identifier "5";
+  skos:prefLabel "Diploma Programme Directing (Artist Diploma)"@en, "Diplomstudiengang Regie (Artist Diploma)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-6>
+  a skos:Concept;
+  dct:identifier "6";
+  skos:prefLabel "Diploma Programme Acting (Artist Diploma)"@en, "Diplomstudiengang Schauspiel (Artist Diploma)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-7>
+  a skos:Concept;
+  dct:identifier "7";
+  skos:prefLabel "Institute for Computer Music and Electronic Media"@en, "Institut für Computermusik und Elektronische Medien"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-8>
+  a skos:Concept;
+  dct:identifier "8";
+  skos:prefLabel "Institute for Gregorian Chant"@en, "Institut für Gregorianik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-9>
+  a skos:Concept;
+  dct:identifier "9";
+  skos:prefLabel "Institute for Art and Design Science"@en, "Institut für Kunst- und Designwissenschaft"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-10>
+  a skos:Concept;
+  dct:identifier "10";
+  skos:prefLabel "Institute for the Promotion of Young Artists | folkwang junior"@en,
+    "Institut für künstlerische Nachwuchsförderung | folkwang junior"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-11>
+  a skos:Concept;
+  dct:identifier "11";
+  skos:prefLabel "Institute for Popular Music"@en, "Institut für Pop-Musik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-12>
+  a skos:Concept;
+  dct:identifier "12";
+  skos:prefLabel "Institute for Contemporary Dance"@en, "Institut für Zeitgenössischen Tanz"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-13>
+  a skos:Concept;
+  dct:identifier "13";
+  skos:prefLabel "Study Programme Design Futures (M.A.)"@en, "Studiengang Design Futures (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-14>
+  a skos:Concept;
+  dct:identifier "14";
+  skos:prefLabel "Study Programme Photography (B.A.)"@en, "Studiengang Fotografie (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-15>
+  a skos:Concept;
+  dct:identifier "15";
+  skos:prefLabel "Study Programme Voice | Music Theatre (B.Mus.)"@en, "Studiengang Gesang | Musiktheater (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-16>
+  a skos:Concept;
+  dct:identifier "16";
+  skos:prefLabel "Study Programme Gregorian Chant (Certificate)"@en, "Studiengang Gregorianik (Zertifikat)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-17>
+  a skos:Concept;
+  dct:identifier "17";
+  skos:prefLabel "Study Programme Instrumental Training (B.A.)"@en, "Studiengang Instrumentalausbildung (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-18>
+  a skos:Concept;
+  dct:identifier "18";
+  skos:prefLabel "Study Programme Integrative Composition (M.Mus.)"@en, "Studiengang Integrative Komposition (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-19>
+  a skos:Concept;
+  dct:identifier "19";
+  skos:prefLabel "Study Programme Integrative Music Theory (M.Mus.)"@en, "Studiengang Integrative Musiktheorie (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-20>
+  a skos:Concept;
+  dct:identifier "20";
+  skos:prefLabel "Study Programme Jazz | Artist Producer (M.Mus.)"@en, "Studiengang Jazz | Artist Producer (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-21>
+  a skos:Concept;
+  dct:identifier "21";
+  skos:prefLabel "Study Programme Jazz | Improvising Artist (M.Mus.)"@en, "Studiengang Jazz | Improvising Artist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-22>
+  a skos:Concept;
+  dct:identifier "22";
+  skos:prefLabel "Study Programme Jazz | Performing Artist (B.Mus.)"@en, "Studiengang Jazz | Performing Artist (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-23>
+  a skos:Concept;
+  dct:identifier "23";
+  skos:prefLabel "Study Programme Communication Design (B.A.)"@en, "Studiengang Kommunikationsdesign (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-24>
+  a skos:Concept;
+  dct:identifier "24";
+  skos:prefLabel "Study Programme Communication Design (M.A.)"@en, "Studiengang Kommunikationsdesign (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-25>
+  a skos:Concept;
+  dct:identifier "25";
+  skos:prefLabel "Study Programme Music Teaching (B.A.)"@en, "Studiengang Lehramt Musik (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-26>
+  a skos:Concept;
+  dct:identifier "26";
+  skos:prefLabel "Study Programme Music Teaching (M.Ed.)"@en, "Studiengang Lehramt Musik (M.Ed.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-27>
+  a skos:Concept;
+  dct:identifier "27";
+  skos:prefLabel "Study Programme Directing of Vocal Ensembles (M.Mus.)"@en, "Studiengang Leitung vokaler Ensembles (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-28>
+  a skos:Concept;
+  dct:identifier "28";
+  skos:prefLabel "Study Programme Musical (B.A.)"@en, "Studiengang Musical (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-29>
+  a skos:Concept;
+  dct:identifier "29";
+  skos:prefLabel "Study Programme Music of the Middle Ages (M.Mus.)"@en, "Studiengang Musik des Mittelalters (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-30>
+  a skos:Concept;
+  dct:identifier "30";
+  skos:prefLabel "Study Programme Music Pedagogy (B.A.)"@en, "Studiengang Musikpädagogik (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-31>
+  a skos:Concept;
+  dct:identifier "31";
+  skos:prefLabel "Study Programme Musicology (B. A./Dual-subject Bachelor)"@en, "Studiengang Musikwissenschaft (B.A./Zwei-Fach-Bachelor)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-32>
+  a skos:Concept;
+  dct:identifier "32";
+  skos:prefLabel "Study Programme Musicology (M.A.)"@en, "Studiengang Musikwissenschaft (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-33>
+  a skos:Concept;
+  dct:identifier "33";
+  skos:prefLabel "Study Programme Orchestral Performance (M.Mus.)"@en, "Studiengang Orchesterspiel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-34>
+  a skos:Concept;
+  dct:identifier "34";
+  skos:prefLabel "Study Programme Photography Studies and Practice (M.A.)"@en, "Studiengang Photography Studies and Practice (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-35>
+  a skos:Concept;
+  dct:identifier "35";
+  skos:prefLabel "Study Programme Photography Studies and Research (M.A.)"@en, "Studiengang Photography Studies and Research (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-36>
+  a skos:Concept;
+  dct:identifier "36";
+  skos:prefLabel "Study Programme Popular Music (M.Mus.)"@en, "Studiengang Populäre Musik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-37>
+  a skos:Concept;
+  dct:identifier "37";
+  skos:prefLabel "Study Programme Product Design (B.A.)"@en, "Studiengang Product Design (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-38>
+  a skos:Concept;
+  dct:identifier "38";
+  skos:prefLabel "Study Programme Media Creation (M.A.)"@en, "Studiengang Professional Media Creation (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-39>
+  a skos:Concept;
+  dct:identifier "39";
+  skos:prefLabel "Study Programme Profession Performance (M.Mus.)"@en, "Studiengang Professionelle Performance (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-40>
+  a skos:Concept;
+  dct:identifier "40";
+  skos:prefLabel "Study Programme Dance Composition | Movement Notation/Movement Analysis (M.A.)"@en,
+    "Studiengang Tanzkomposition | Bewegungsnotation/Bewegungsanalyse (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-41>
+  a skos:Concept;
+  dct:identifier "41";
+  skos:prefLabel "Study Programme Dance Composition | Choreography (M.A.)"@en, "Studiengang Tanzkomposition | Choreographie (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-42>
+  a skos:Concept;
+  dct:identifier "42";
+  skos:prefLabel "Study Programme Dance Composition | Interpreatation (M.A.)"@en, "Studiengang Tanzkomposition | Interpretation (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-43>
+  a skos:Concept;
+  dct:identifier "43";
+  skos:prefLabel "Study Programme Dance Padagogy for Artistic Dance (M.A.)"@en, "Studiengang Tanzpädagogik für künstlerischen Tanz (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44>
+  a skos:Concept;
+  dct:identifier "44";
+  skos:prefLabel "Hochschule für Musik Detmold"@en, "Hochschule für Musik Detmold"@de .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-45>
+  a skos:Concept;
+  dct:identifier "45";
+  skos:prefLabel "Detmold Young Students' Institute"@en, "Detmolder Jungstudierenden-Institut"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-46>
+  a skos:Concept;
+  dct:identifier "46";
+  skos:prefLabel "Doctoral Programme Audiovisual Arts Computing (Dr. phil, Dr. Ing)"@en,
+    "Promotionsstudiengang Audiovisual Arts Computing (Dr.phil, Dr.- Ing)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-47>
+  a skos:Concept;
+  dct:identifier "47";
+  skos:prefLabel "Doctoral Programme Music Acoustics (Dr.)"@en, "Promotionsstudiengang Musikalische Akustik (Dr.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-48>
+  a skos:Concept;
+  dct:identifier "48";
+  skos:prefLabel "Doctoral Programme Musicology (Dr. Phil.)"@en, "Promotionsstudiengang Musikwissenschaft (Dr.phil)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-49>
+  a skos:Concept;
+  dct:identifier "49";
+  skos:prefLabel "Study Programme Bachelor of Music | Protestant Church Music (B. Mus.)"@en,
+    "Studiengang Bachelor of Music | Evangelsiche Kirchenmusik (B. Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-50>
+  a skos:Concept;
+  dct:identifier "50";
+  skos:prefLabel "Study Programme Bachelor of Music | Freelance Musician (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Freischaffender Musiker (B. Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-51>
+  a skos:Concept;
+  dct:identifier "51";
+  skos:prefLabel "Study Programme Bachelor of Music | Catholic Church Music (B. Mus.)"@en,
+    "Studiengang Bachelor of Music | Katholische Kirchenmusik (B. Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-52>
+  a skos:Concept;
+  dct:identifier "52";
+  skos:prefLabel "Study Programme Bachelor of Music | Orchesteral Musician (B. Mus.)"@en,
+    "Studiengang Bachelor of Music | Orchestermusiker (B. Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-53>
+  a skos:Concept;
+  dct:identifier "53";
+  skos:prefLabel "Study Programme Master of Music | Accordion | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Akkordion | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-54>
+  a skos:Concept;
+  dct:identifier "54";
+  skos:prefLabel "Study Programme Master of Music | Accordion | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Akkordion | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-55>
+  a skos:Concept;
+  dct:identifier "55";
+  skos:prefLabel "Study Programme Master of Music | Accordion | Solist (M.Mus.)"@en,
+    "Studiengang Master of Music | Akkordion | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-56>
+  a skos:Concept;
+  dct:identifier "56";
+  skos:prefLabel "Study Programme Master of Music | Recorder | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Blockflöte | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-57>
+  a skos:Concept;
+  dct:identifier "57";
+  skos:prefLabel "Study Programme Master of Music | Recorder | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Blockflöte | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-58>
+  a skos:Concept;
+  dct:identifier "58";
+  skos:prefLabel "Study Programme Master of Music | Recorder | Solist (M.Mus.)"@en,
+    "Studiengang Master of Music | Blockflöte | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-59>
+  a skos:Concept;
+  dct:identifier "59";
+  skos:prefLabel "Study Programme Master of Music | Protestant Church Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Evangelische Kirchenmusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-60>
+  a skos:Concept;
+  dct:identifier "60";
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Fagott| Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-61>
+  a skos:Concept;
+  dct:identifier "61";
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Fagott | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-62>
+  a skos:Concept;
+  dct:identifier "62";
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Fagott | Orchesterspiel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-63>
+  a skos:Concept;
+  dct:identifier "63";
+  skos:prefLabel "Study Programme Master of Music | Bassoon | Solist (M.Mus.)"@en, "Studiengang Master of Music | Fagott | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-64>
+  a skos:Concept;
+  dct:identifier "64";
+  skos:prefLabel "Study Programme Master of Music | Flute | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Flöte | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-65>
+  a skos:Concept;
+  dct:identifier "65";
+  skos:prefLabel "Study Programme Master of Music | Flute | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Flöte | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-66>
+  a skos:Concept;
+  dct:identifier "66";
+  skos:prefLabel "Study Programme Master of Music | Flute | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Flöte | Orchesterspiel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-67>
+  a skos:Concept;
+  dct:identifier "67";
+  skos:prefLabel "Study Programme Master of Music | Flute | Solist (M.Mus.)"@en, "Studiengang Master of Music | Flöte | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-68>
+  a skos:Concept;
+  dct:identifier "68";
+  skos:prefLabel "Study Programme Master of Music | Guitar | Solist (M.Mus.)"@en, "Studiengang Master of Music | Gitarre | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-69>
+  a skos:Concept;
+  dct:identifier "69";
+  skos:prefLabel "Study Programme Master of Music | Guitar | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Gitarre | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-70>
+  dct:identifier "70";
+  skos:prefLabel "Study Programme Master of Music | Guitar | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Gitarre | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-71>
+  dct:identifier "71";
+  skos:prefLabel "Study Programme Master of Music | Harp | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Harfe | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-72>
+  dct:identifier "72";
+  skos:prefLabel "Study Programme Master of Music | Harp | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Harfe | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-73>
+  dct:identifier "73";
+  skos:prefLabel "Study Programme Master of Music | Harp | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Harfe | Orchesterspiel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-74>
+  dct:identifier "74";
+  skos:prefLabel "Study Programme Master of Music | Harp | Solist (M.Mus.)"@en, "Studiengang Master of Music | Harfe | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-75>
+  dct:identifier "75";
+  skos:prefLabel "Study Programme Master of Music | Catholic Church Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Katholische Kirchenmusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-76>
+  dct:identifier "76";
+  skos:prefLabel "Study Programme Master of Music | Organ | Solist (M.Mus.)"@en, "Studiengang Master of Music | Orgel | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-77>
+  dct:identifier "77";
+  skos:prefLabel "Study Programme Master of Music | Organ | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Orgel | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-78>
+  dct:identifier "78";
+  skos:prefLabel "Study Programme Master of Music | Organ | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Orgel| Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-79>
+  dct:identifier "79";
+  skos:prefLabel "Study Programme Master of Music | Saxophone | Solist (M.Mus.)"@en,
+    "Studiengang Master of Music | Saxophon | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-80>
+  dct:identifier "80";
+  skos:prefLabel "Study Programme Master of Music | Saxophone | Chamber Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Saxophon | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-81>
+  dct:identifier "81";
+  skos:prefLabel "Study Programme Master of Music | Saxophone | Music and Musicology (M.Mus.)"@en,
+    "Studiengang Master of Music | Saxophon | Musik und Wissenschaft (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-82>
+  dct:identifier "82";
+  skos:prefLabel "Centre for Music and Film Informatics"@en, "Zentrum für Musik- und Filminformatik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83>
+  dct:identifier "83";
+  skos:prefLabel "Hochschule für Musik und Tanz Köln"@en, "Hochschule für Musik und Tanz Köln"@de .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-84>
+  dct:identifier "84";
+  skos:prefLabel "Institute for Early Music"@en, "Institut für Alte Musik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-85>
+  dct:identifier "85";
+  skos:prefLabel "Institute for Historic Musicology"@en, "Institut für Historische Musikwissenschaft"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-86>
+  dct:identifier "86";
+  skos:prefLabel "Institute for New Music"@en, "Institut für Neue Musik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-87>
+  dct:identifier "87";
+  skos:prefLabel "Cologne Institute for Music Pedagogy Research"@en, "Kölner Institut für Musikpädagogische Forschung"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-88>
+  dct:identifier "88";
+  skos:prefLabel "Children's Choir of the University"@en, "Kinderchor der Hochschule"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-89>
+  dct:identifier "89";
+  skos:prefLabel "Song Academy at the HfMT Köln"@en, "Liedakademie an der HfMT Köln"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-90>
+  dct:identifier "90";
+  skos:prefLabel "Peter Oswald Institute"@en, "Peter-Ostwald-Institut"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-91>
+  dct:identifier "91";
+  skos:prefLabel "Pre-College Cologne"@en, "Pre-College Cologne"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-92>
+  dct:identifier "92";
+  skos:prefLabel "Project EchoSpore"@en, "Projekt EchoSpore"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-93>
+  dct:identifier "93";
+  skos:prefLabel "Project Schauspiel HfMT (Acting HfMT)"@en, "Projekt Schauspiel HfMT"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-94>
+  dct:identifier "94";
+  skos:prefLabel "Seminar Project Jazz Against The Machine"@en, "Projektseminar Jazz Against The Machine"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-95>
+  dct:identifier "95";
+  skos:prefLabel "Rheinische Opernakademie (Rhenish Opera Acadaemy)"@en, "Rheinische Opernakademie"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-96>
+  dct:identifier "96";
+  skos:prefLabel "Study Programme Bachelor of Arts | Dance (B.A.)"@en, "Studiengang Bachelor of Arts | Tanz (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-97>
+  dct:identifier "97";
+  skos:prefLabel "Study Programme Bachelor of Music | Brass Instruments (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Blechbläser (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-98>
+  dct:identifier "98";
+  skos:prefLabel "Study Programme Bachelor of Music | Choral Conducting (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Chordirigieren (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-99>
+  dct:identifier "99";
+  skos:prefLabel "Study Programme Bachelor of Music | Electronic Compostion (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Elektronische Komposition (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-100>
+  dct:identifier "100";
+  skos:prefLabel "Study Programme Bachelor of Music | Elementary Music [Pedagogy] (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Elementare Musikpädagogik (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-101>
+  dct:identifier "101";
+  skos:prefLabel "Study Programme Bachelor of Music | Church Music (Protestant) (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Evangelische Kirchenmusik (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-102>
+  dct:identifier "102";
+  skos:prefLabel "Study Programme Bachelor of Music | Voice (B.Mus.)"@en, "Studiengang Bachelor of Music | Gesang (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-103>
+  dct:identifier "103";
+  skos:prefLabel "Study Programme Bachelor of Music | Guitar (B.Mus.)"@en, "Studiengang Bachelor of Music | Gitarre (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-104>
+  dct:identifier "104";
+  skos:prefLabel "Study Programme Bachelor of Music | Harp (B.Mus.)"@en, "Studiengang Bachelor of Music | Harfe (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-105>
+  dct:identifier "105";
+  skos:prefLabel "Study Programme Bachelor of Music | Historic Instruments (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Historische Instrumente (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-106>
+  dct:identifier "106";
+  skos:prefLabel "Study Programme Bachelor of Music | Woodwind Instruments (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Holzbläser (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-107>
+  dct:identifier "107";
+  skos:prefLabel "Study Programme Bachelor of Music | Instrumental/Vocal Pedagogy (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Instrumental-/Gesangspädagogik (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-108>
+  dct:identifier "108";
+  skos:prefLabel "Study Programme Bachelor of Music | Instrumental Composition (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Instrumentale Komposition (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-109>
+  dct:identifier "109";
+  skos:prefLabel "Study Programme Bachelor of Music | Jazz/Pop (B.Mus.)"@en, "Studiengang Bachelor of Music | Jazz/Pop (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-110>
+  dct:identifier "110";
+  skos:prefLabel "Study Programme Bachelor of Music | Church Music (Catholic) (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Katholische Kirchenmusik (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-111>
+  dct:identifier "111";
+  skos:prefLabel "Study Programme Bachelor of Music | Piano (B.Mus.)"@en, "Studiengang Bachelor of Music | Klavier (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-112>
+  dct:identifier "112";
+  skos:prefLabel "Study Programme Bachelor of Music | Mandolin (B.Mus.)"@en, "Studiengang Bachelor of Music | Mandoline (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-113>
+  dct:identifier "113";
+  skos:prefLabel "Study Programme Bachelor of Music | Orchestral Conducting (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Orchesterdirigieren (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-114>
+  dct:identifier "114";
+  skos:prefLabel "Study Programme Bachelor of Music | Organ (B.Mus.)"@en, "Studiengang Bachelor of Music | Orgel (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-115>
+  dct:identifier "115";
+  skos:prefLabel "Study Programme Bachelor of Music | Percussion/Timpani (B.Mus.)"@en,
+    "Studiengang Bachelor of Music | Schlagzeug/Pauke (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-116>
+  dct:identifier "116";
+  skos:prefLabel "Study Programme Bachelor of Music | Strings (B.Mus.)"@en, "Studiengang Bachelor of Music | Streicher (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-117>
+  dct:identifier "117";
+  skos:prefLabel "Study Programme Bachelor of Music | Composition/Music Theory"@en,
+    "Studiengang Bachelor of Music | Tonsatz/Musiktheorie (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-118>
+  dct:identifier "118";
+  skos:prefLabel "Study Programme Master of Arts | Music Pedagogy (M.A.)"@en, "Studiengang Master of Arts | Musikpädagogik (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-119>
+  dct:identifier "119";
+  skos:prefLabel "Study Programme Master of Arts | Musicology (M.A.)"@en, "Studiengang Master of Arts | Musikwissenschaft (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-120>
+  dct:identifier "120";
+  skos:prefLabel "Study Programme Master of Arts | Medition in Dance (M.A.)"@en, "Studiengang Master of Arts | Tanzvermittlung (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-121>
+  dct:identifier "121";
+  skos:prefLabel "Study Programme Master of Arts | Dance Studies (M.A.)"@en, "Studiengang Master of Arts | Tanzwissenschaft (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-122>
+  dct:identifier "122";
+  skos:prefLabel "Study Programme Master of Music | Wind Instruments (M.Mus.)"@en, "Studiengang Master of Music | Blasinstrumente (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-123>
+  dct:identifier "123";
+  skos:prefLabel "Study Programme Master of Music | Choral Conducting (M.Mus.)"@en,
+    "Studiengang Master of Music | Dirigieren Chor (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-124>
+  dct:identifier "124";
+  skos:prefLabel "Study Programme Master of Music | Conducting Musical Theatre (M.Mus.)"@en,
+    "Studiengang Master of Music | Dirigieren Musiktheater (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-125>
+  dct:identifier "125";
+  skos:prefLabel "Study Programme Master of Music | Conducting Orchestra (M.Mus.)"@en,
+    "Studiengang Master of Music| Dirigieren Orchester (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-126>
+  dct:identifier "126";
+  skos:prefLabel "Study Programme Master of Music | Conducting Contemporary Music (M.Mus.)"@en,
+    "Studiengang Master of Music| Dirigieren Zeitgenössische Musik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-127>
+  dct:identifier "127";
+  skos:prefLabel "Study Programme Master of Music | Electronic Composition (M.Mus.)"@en,
+    "Studiengang Master of Music | Elektronische Komposition (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-128>
+  dct:identifier "128";
+  skos:prefLabel "Study Programme Master of Music | Church Music (Protestant) (M.Mus.)"@en,
+    "Studiengang Master of Music | Evangelische Kirchenmusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-129>
+  dct:identifier "129";
+  skos:prefLabel "Study Programme Master of Music | Voice Song/Concert (M.Mus.)"@en,
+    "Studiengang Master of Music | Gesang Lied/Konzert (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-130>
+  dct:identifier "130";
+  skos:prefLabel "Study Programme Master of Music | Voice Music Theatre (M.Mus.)"@en,
+    "Studiengang Master of Music | Gesang Musiktheater (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-131>
+  dct:identifier "131";
+  skos:prefLabel "Study Programme Master of Music | Guitar (M.Mus.)"@en, "Studiengang Master of Music | Gitarre (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-132>
+  dct:identifier "132";
+  skos:prefLabel "Study Programme Master of Music | Harp (M.Mus.)"@en, "Studiengang Master of Music | Harfe (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-133>
+  dct:identifier "133";
+  skos:prefLabel "Study Programme Master of Music | Historische Instrumente und Barockgesang (M.Mus.)"@en,
+    "Studiengang Master of Music | Historische Instrumente und Barockgesang (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-134>
+  dct:identifier "134";
+  skos:prefLabel "Study Programme Master of Music | Instrumental Composition (M.Mus.)"@en,
+    "Studiengang Master of Music | Instrumentale Komposition (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-135>
+  dct:identifier "135";
+  skos:prefLabel "Study Programme Master of Music | Interpretation New Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Interpretation Neue Musik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-136>
+  dct:identifier "136";
+  skos:prefLabel "Study Programme Master of Music | Jazz Composition/Arrangement (M.Mus.)"@en,
+    "Studiengang Master of Music | Jazz-Komposition/Arrangement (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-137>
+  dct:identifier "137";
+  skos:prefLabel "Study Programme Master of Music | Jazz/Pop Instrumental/Vocal (M.Mus.)"@en,
+    "Studiengang Master of Music | Jazz/Pop Instrumental/Vokal (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-138>
+  dct:identifier "138";
+  skos:prefLabel "Study Programme Master of Music | Chamber Music (M.Mus.)"@en, "Studiengang Master of Music | Kammermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-139>
+  dct:identifier "139";
+  skos:prefLabel "Study Programme Master of Music | Church Music (Catholic) (M.Mus.)"@en,
+    "Studiengang Master of Music | Katholische Kirchenmusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-140>
+  dct:identifier "140";
+  skos:prefLabel "Study Programme Master of Music | Piano (M.Mus.)"@en, "Studiengang Master of Music | Klavier (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-141>
+  dct:identifier "141";
+  skos:prefLabel "Study Programme Master of Music | Song Interpretation for Pianists (M.Mus.)"@en,
+    "Studiengang Master of Music | Liedgestaltung (Klavier) (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-142>
+  dct:identifier "142";
+  skos:prefLabel "Study Programme Master of Music | Mandolin (M.Mus.)"@en, "Studiengang Master of Music | Mandoline (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-143>
+  dct:identifier "143";
+  skos:prefLabel "Study Programme Master of Music | Modern Piano Music (M.Mus.)"@en,
+    "Studiengang Master of Music | Neue Klaviermusik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-144>
+  dct:identifier "144";
+  skos:prefLabel "Study Programme Master of Music | Opera Correpetition (M.Mus.)"@en,
+    "Studiengang Master of Music | Opernkorrepetition (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-145>
+  dct:identifier "145";
+  skos:prefLabel "Study Programme Master of Music | Orchestral Playing (M.Mus.)"@en,
+    "Studiengang Master of Music | Orchesterspiel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-146>
+  dct:identifier "146";
+  skos:prefLabel "Study Programme Master of Music | Organ (M.Mus.)"@en, "Studiengang Master of Music | Orgel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-147>
+  dct:identifier "147";
+  skos:prefLabel "Study Programme Master of Music | Production (M.Mus.)"@en, "Studiengang Master of Music | Production (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-148>
+  dct:identifier "148";
+  skos:prefLabel "Study Programme Master of Music | Percussion/Timpani (M.Mus.)"@en,
+    "Studiengang Master of Music | Schlagzeug/Pauke (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-149>
+  dct:identifier "149";
+  skos:prefLabel "Study Programme Master of Music | String Instruments (M.Mus.)"@en,
+    "Studiengang Master of Music | Streichinstrumente (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-150>
+  dct:identifier "150";
+  skos:prefLabel "Study Programme Master of Music | Music Theory (M.Mus.)"@en, "Studiengang Master of Music | Tonsatz (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-151>
+  dct:identifier "151";
+  skos:prefLabel "Studio for Electronic Music"@en, "Studio für Elektronische Musik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-152>
+  dct:identifier "152";
+  skos:prefLabel "Library Tape Archive"@en, "Tonbandarchiv der Bibliothek"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-153>
+  dct:identifier "153";
+  skos:prefLabel "Voc.Cologne"@en, "Voc.Cologne"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-154>
+  dct:identifier "154";
+  skos:prefLabel "Centre for Music Teacher Education in the Job"@en, "Zentrum für MusiklehrerInnenbildung im Beruf"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-155>
+  dct:identifier "155";
+  skos:prefLabel "Centre of Contemporary Dance"@en, "Zentrum für Zeitgenössischen Tanz"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>
+  dct:identifier "156";
+  skos:prefLabel "Academy of Media Arts Cologne"@en, "Kunsthochschule für Medien Köln"@de .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-157>
+  dct:identifier "157";
+  skos:prefLabel "Archive for Media Arts, Academy of Media Arts Cologne (Project Archive)"@en,
+    "Archiv für mediale Künste (Projektarchiv)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition """Das Archiv für mediale Künste sammelt und archiviert die seit 1990 an der KHM entstandenen interdisziplinären künstlerischen Projekte sowie, in Form von audio-visuellen Aufzeichnungen, die medientheoretischen gesellschaftlichen Positionen und Diskurse, die durch die Lehrenden, Studierenden und deren Gäste an der KHM geführt wurden und werden.
+Hierzu zählen über 4970 künstlerische Arbeiten von Studierenden, die im Projektarchiv verzeichnet sind, als Dokumentationen oder vollständige Werke vorliegen, sowie über 180, bereits erschlossene, im Kontext der KHM stattgefundenen Ausstellungen, Veranstaltungsreihen, Rundgänge, Konzerte, Symposien, künstlerisch und wissenschaftliche Forschungsarbeiten, die im Archiv in Form von Audio- und Video Aufzeichnungen, Filmen, Fotografien, Filmstils, Publikationen, E-Publikationen, Websites, Plakaten, Multiples und Flyern archiviert werden.Über die Website ist eine Auswahl der künstlerischen Projekte und bisherigen Veranstaltungen zugänglich."""@de,
+    "The Archive for Media Arts collects and archives the interdisciplinary artistic projects created at the KHM since 1990 as well as, in the form of audio-visual recordings, the media-theoretical social positions and discourses that were and are conducted by teachers, students and their guests at the KHM. These include over 4970 artistic works by students, which are listed in the project archive, available as documentations or complete works, as well as over 180 exhibitions, series of events, tours, concerts, symposia, artistic and scientific research works that have already been catalogued in the context of the KHM, which are archived in the archive in the form of audio and video recordings, films, photographs, film styles, publications, e-publications, websites, posters, multiples and flyers, and a selection of the artistic projects and previous events is accessible via the website."@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-158>
+  dct:identifier "158";
+  skos:prefLabel "Archive for Media Arts, Academy of Media Arts Cologne (Event Archive)"@en,
+    "Archiv für mediale Künste (Veranstaltungsarchiv)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition """Das Archiv für mediale Künste sammelt und archiviert die seit 1990 an der KHM entstandenen interdisziplinären künstlerischen Projekte sowie, in Form von audio-visuellen Aufzeichnungen, die medientheoretischen gesellschaftlichen Positionen und Diskurse, die durch die Lehrenden, Studierenden und deren Gäste an der KHM geführt wurden und werden.
+Hierzu zählen über 4970 künstlerische Arbeiten von Studierenden, die im Projektarchiv verzeichnet sind, als Dokumentationen oder vollständige Werke vorliegen, sowie über 180, bereits erschlossene, im Kontext der KHM stattgefundenen Ausstellungen, Veranstaltungsreihen, Rundgänge, Konzerte, Symposien, künstlerisch und wissenschaftliche Forschungsarbeiten, die im Archiv in Form von Audio- und Video Aufzeichnungen, Filmen, Fotografien, Filmstils, Publikationen, E-Publikationen, Websites, Plakaten, Multiples und Flyern archiviert werden.Über die Website ist eine Auswahl der künstlerischen Projekte und bisherigen Veranstaltungen zugänglich."""@de,
+    "The Archive for Media Arts collects and archives the interdisciplinary artistic projects created at the KHM since 1990 as well as, in the form of audio-visual recordings, the media-theoretical social positions and discourses that were and are conducted by teachers, students and their guests at the KHM. These include over 4970 artistic works by students, which are listed in the project archive, available as documentations or complete works, as well as over 180 exhibitions, series of events, tours, concerts, symposia, artistic and scientific research works that have already been catalogued in the context of the KHM, which are archived in the archive in the form of audio and video recordings, films, photographs, film styles, publications, e-publications, websites, posters, multiples and flyers, and a selection of the artistic projects and previous events is accessible via the website."@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-159>
+  dct:identifier "159";
+  skos:prefLabel "Media and Fine Art Diploma 1 | Undergraduate Course"@en, "Studiengang Mediale Künste | 9-semestriges Diplomstudium (grundständig, Diplom 1)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition "Das Diplomstudium Mediale Künste wird als 9-semestriges Studium (grundständig, Diplom 1) oder als 4-semestriges Studium (postgradual, Diplom 2) angeboten. Das Diplom Mediale Künste (Diplom 1 oder Diplom 2) der Kunsthochschule für Medien Köln ist im internationalen Kontext mit einem MFA (Master of Fine Arts) vergleichbar. (2024)"@de,
+    "The Diploma in Medial Arts is offered as a 9-semester program (undergraduate, Diploma 1) or as a 4-semester program (postgraduate, Diploma 2). The Diploma in Media Arts (Diplom 1 or Diplom 2) of the Academy of Media Arts Cologne is comparable to an MFA (Master of Fine Arts) in an international context. (2024)"@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-160>
+  dct:identifier "160";
+  skos:prefLabel "Media and Fine Art Diploma 2 | Postgraduate Course"@en, "Studiengang Mediale Künste | 4-semestriges Diplomstudium (postgradual, Diplom 2)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition "Das Diplomstudium Mediale Künste wird als 9-semestriges Studium (grundständig, Diplom 1) oder als 4-semestriges Studium (postgradual, Diplom 2) angeboten. Das Diplom Mediale Künste (Diplom 1 oder Diplom 2) der Kunsthochschule für Medien Köln ist im internationalen Kontext mit einem MFA (Master of Fine Arts) vergleichbar. (2024)"@de,
+    "The Diploma in Medial Arts is offered as a 9-semester program (undergraduate, Diploma 1) or as a 4-semester program (postgraduate, Diploma 2). The Diploma in Media Arts (Diplom 1 or Diplom 2) of the Academy of Media Arts Cologne is comparable to an MFA (Master of Fine Arts) in an international context. (2024)"@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-161>
+  dct:identifier "161";
+  skos:prefLabel "Doctoral Programme"@en, "Promotionsprogramm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition "Das Promotionsprogramm der KHM bietet die Möglichkeit zur philosophischen Dissertation. Die Verbindung von künstlerischen Fragestellungen und wissenschaftlichen Methoden soll im Promotionsprogramm der KHM zu relevanten neuen Ergebnissen führen. Abgeschlossen wird – in Übereinstimmung mit der Gesetzgebung für die Kunsthochschulen des Landes NRW – mit einem universitätsgleichen, also wissenschaftlichen Dr. phil. im Fachgebiet Kunst- und Medienwissenschaften. (2024)"@de,
+    "The doctoral programme of the KHM offers the possibility of a philosophical dissertation. The combination of artistic questions and scientific methods should lead to relevant new results in the doctoral program of the KHM. The degree - in accordance with the legislation for art colleges in the state of North Rhine-Westphalia - is a university-equivalent, i.e. scientific, Dr. phil. in the subject area of art and media studies. (2024)"@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-162>
+  dct:identifier "162";
+  skos:prefLabel "exMedia Department"@en, "Fächergruppe exMedia"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-163>
+  dct:identifier "163";
+  skos:prefLabel "Film and Television Department"@en, "Fächergruppe Film und Fernsehen"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-164>
+  dct:identifier "164";
+  skos:prefLabel "Art Department"@en, "Fächergruppe Kunst"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-165>
+  dct:identifier "165";
+  skos:prefLabel "Art and Media Studies Department"@en, "Fächergruppe Kunst & Medienwissenschaften"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-166>
+  dct:identifier "166";
+  skos:prefLabel "Media Design Department"@en, "Fächergruppe Mediengestaltung"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-167>
+  dct:identifier "167";
+  skos:prefLabel "Glasmoog – Space for Art & Discourse"@en, "Glasmoog – Raum für Kunst & Diskurs"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition """GLASMOOG ist ein Raum für zeitgenössische Kunst und ihre Bezugsfelder, der 2009 an der Kunsthochschule für Medien Köln (KHM) gegründet wurde. Das Programm verbindet regionale und internationale, bekannte und weniger bekannte künstlerische Positionen und flankiert, mit Blick auf die medialen Künste, die an der KHM verfolgten Fragestellungen und Diskurse.
+
+Mit seiner knapp 80 qm messenden Ausstellungsfläche bietet GLASMOOG eine durch zwei große Schaufenster geprägte klare räumliche Situation. In der Benennung des Raums nach der vormals hier angesiedelten Glaserei der Familie Moog („Glas Moog“) spiegelt sich der ehemals von Handwerk und Handel geprägte Charakter des Viertels, in das die Kunsthochschule sich mit ihren Ateliers, Laboren, Werkstätten und Studios seit ihrer Gründung 1989 rhizomatisch eingeschrieben hat. Darüber hinaus beinhaltet der Name eine transatlantische Reverenz an Bob Moog, einen der großen Pioniere und Bastler der elektronischen Musik und Erfinder des Moog-Synthesizers. Musik, Klang und Sound spielen an der KHM traditionell eine zentrale Rolle.
+
+GLASMOOG fungiert als Membran zwischen Kunsthochschule, Nachbarschaft, der Stadt und der Region mit regionaler bis internationaler Ausrichtung. Es geht darum, Verknüpfungen herzustellen: Zum einen werden Künstler*Innen eingeladen, die Impulse von außen ermöglichen, zum anderen wird die Kunsthochschule als Ort sichtbar, an dem künstlerische Ausrichtungen initiiert werden, an dem Entwicklung stattfindet. Im Zentrum der Aktivitäten stehen thematische Ausstellungen und Veranstaltungsreihen, ergänzt durch Künstlergespräche, Performances und Konzerte. Das Programm ist jedoch grundsätzlich für ganz unterschiedliche Formate und experimentelle Ausrichtungen offen – ein Raum, in dem die verschiedensten künstlerischen Praktiken und Prozesse, aber auch alternative Präsentationsformen möglich sind. GLASMOOG ist ein Ort, der sehr flexibel operieren kann und wie eine Art Forschungsstation Mechanismen, Strategien, Haltungen sichtbar, im Sinne von räumlich erlebbar machen kann. Dabei ist der Blick insbesondere auf diejenigen Positionen und Haltungen gerichtet, die sich nicht sofort aufdrängen. Ziel ist ein diskursiver Ort, der – angesiedelt in der Kunsthochschule – ausstrahlt auf Köln und die Region.
+
+GLASMOOG ist Mitglied bei AIC - Art Initiatives Cologne, einem 2016 gegründeten Netzwerk freier, nicht kommerzieller Kunst- und Projekträume, Kunstinitiativen und Festivals in Köln.
+(2024)"""@de,
+    "Since 2009 Glasmoog is an exhibition space for contemporary art at the Kunsthochschule für Medien Köln (KHM)/Academy of Media Arts Cologne transferring and extending the schools discourses into a public gallery. With about 80 square meters Glasmoog, a former showroom run by the Moog family selling window and mirror glass, provides a simple dense space, primarily characterized by large windows opening to the main street. To name the gallery after its familiar name “Glas Moog” reflects the conversion from a neighborhood shaped by traditional merchants and crafters to a micro-structured art school, that since its fairly new foundation about 25 years ago grew its campus organically into available workshops and spaces. Glasmoog’s exhibition program directed by Heike Ander operates independently inside the school as a station for research in artistic practices, mechanisms and strategies. Glasmoog works locally as an interface between academy, neighborhood, city and the Rhine region. Glasmoog also cooperates with regional and international initiatives, projects, academies and public institutions. Complemented by public events, artist talks, performances and independent presentations various exhibitions by national and international artists and artist groups among them students, graduates and alumni of KHM, have been so far realized. In irregular intervals the series \"Calling Out of Context\" introduces outstanding artistic platforms and organizations. Catalogs, artist books and other printed matter document the exhibitions and are published under Glasmoog Books. (2024)"@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-168>
+  dct:identifier "168";
+  skos:prefLabel "Case – Projektraum der Fotografie"@en, "Case – Projektraum der Fotografie"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>;
+  skos:definition "Das Case ist ein von Beate Gütschow und Max Dauven betriebener Projektraum an der Kunsthochschule für Medien in Köln. Hier finden Einzelausstellungen von Studierenden, Vorträge und Seminare statt. Die gegenwärtigen Entwicklungen in der Fotografie stehen im Mittelpunkt der Veranstaltungen: Photogrammetrie, Wassertransferdruck, computergesteuerte Laserschnitttechnik zur Bearbeitung des Bildträgers, CGI und Augmented Reality haben die Fotografie maßgeblich in den realen und virtuellen Raum entgrenzt. Algorithmen sind selbstverständlicher – oft unsichtbarer – Teil des alltäglichen Fotografierens. Rechner sortieren für uns die Flut der fotografischen Artefakte im Netz. Durch automatisierte Verschlagwortung entsteht ein kollektives Bildgedächtnis, das strukturell unübersichtlich ist. Diese (technischen) Neuerungen sind nur auf der Basis von elementaren Ausprägungen der Fotografie zu verstehen. Bei einer Aufnahme mit einer Plattenkamera ist das Indexikalische einer Aufnahme unmittelbar spürbar; die Photogrammetrie ist keineswegs ein digitales Phänomen, vielmehr beruht sie auf mathematischen Formeln des ausgehenden 19. JHD, mit deren Hilfe auf Ballonfahrten aufgenommen Fotografien zusammengerechnet wurden, um ganze Landstriche zu vermessen. Das Photogramm – die kameralose Aufzeichnung eines Gegenstandes auf Fotopapier – lässt den klassischen Bildträger in Vordergrund treten, als Antagonist zum Screen, der den gesamten gegenwärtigen fotografischen Alltag abbildet. Neben der stetig voranschreitenden Entwicklung des Mediums bietet auch das Konvergieren unterschiedlicher Medienkategorien wie Fotografie, Malerei, Video, Skulptur und Zeichnung die Grundlage, neue Denkansätze zu erforschen. So ist der Projektraum auch ein Ort des Experimentierens, die fotografischen Ansätze können auch über die Grenzen der Fotografie hinausgehen. Neben der medialen Selbstreflexion transportiert das Medium Fotografie Aspekte des Realen: So waren in der Vergangenheit künstlerische Arbeiten und Vorträge zu den Themen wie Kohleverstromung und Klimakrise; Kulturtransfers, Grenzziehung und Migration; genderspezifische Gewalt und Rechtsradikalismus zu sehen. (2024)"@de,
+    "Das Case ist ein von Beate Gütschow und Max Dauven betriebener Projektraum an der Kunsthochschule für Medien in Köln. Hier finden Einzelausstellungen von Studierenden, Vorträge und Seminare statt. Die gegenwärtigen Entwicklungen in der Fotografie stehen im Mittelpunkt der Veranstaltungen: Photogrammetrie, Wassertransferdruck, computergesteuerte Laserschnitttechnik zur Bearbeitung des Bildträgers, CGI und Augmented Reality haben die Fotografie maßgeblich in den realen und virtuellen Raum entgrenzt. Algorithmen sind selbstverständlicher – oft unsichtbarer – Teil des alltäglichen Fotografierens. Rechner sortieren für uns die Flut der fotografischen Artefakte im Netz. Durch automatisierte Verschlagwortung entsteht ein kollektives Bildgedächtnis, das strukturell unübersichtlich ist. Diese (technischen) Neuerungen sind nur auf der Basis von elementaren Ausprägungen der Fotografie zu verstehen. Bei einer Aufnahme mit einer Plattenkamera ist das Indexikalische einer Aufnahme unmittelbar spürbar; die Photogrammetrie ist keineswegs ein digitales Phänomen, vielmehr beruht sie auf mathematischen Formeln des ausgehenden 19. JHD, mit deren Hilfe auf Ballonfahrten aufgenommen Fotografien zusammengerechnet wurden, um ganze Landstriche zu vermessen. Das Photogramm – die kameralose Aufzeichnung eines Gegenstandes auf Fotopapier – lässt den klassischen Bildträger in Vordergrund treten, als Antagonist zum Screen, der den gesamten gegenwärtigen fotografischen Alltag abbildet. Neben der stetig voranschreitenden Entwicklung des Mediums bietet auch das Konvergieren unterschiedlicher Medienkategorien wie Fotografie, Malerei, Video, Skulptur und Zeichnung die Grundlage, neue Denkansätze zu erforschen. So ist der Projektraum auch ein Ort des Experimentierens, die fotografischen Ansätze können auch über die Grenzen der Fotografie hinausgehen. Neben der medialen Selbstreflexion transportiert das Medium Fotografie Aspekte des Realen: So waren in der Vergangenheit künstlerische Arbeiten und Vorträge zu den Themen wie Kohleverstromung und Klimakrise; Kulturtransfers, Grenzziehung und Migration; genderspezifische Gewalt und Rechtsradikalismus zu sehen. (2024)"@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169>
+  dct:identifier "169";
+  skos:prefLabel "Robert Schumann Hochschule Düsseldorf"@en, "Robert Schumann Hochschule Düsseldorf"@de .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-170>
+  dct:identifier "170";
+  skos:prefLabel "Callhoff Archive"@en, "Callhoff-Archiv"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-171>
+  dct:identifier "171";
+  skos:prefLabel "DFG-Project \"Classical musicians’ presentation and reception on YouTube: performance and life practices in the digital age\""@en,
+    "DFG-Projekt „Darstellung und Rezeption klassischer Musiker*innen bei YouTube: Aufführungs- und Lebenspraxen im digitalen Zeitalter“"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-172>
+  dct:identifier "172";
+  skos:prefLabel "Excellence Programme Composition"@en, "Exzellenzstudiengang Komposition"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-173>
+  dct:identifier "173";
+  skos:prefLabel "Excellence Programme Music Performance"@en, "Exzellenzstudiengang Konzertexamen"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-174>
+  dct:identifier "174";
+  skos:prefLabel "Reasearch Centre \"Düsseldorf's Civic Music Life\""@en, "Forschungsstelle „Düsseldorfs Bürgerliches Musikleben“"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-175>
+  dct:identifier "175";
+  skos:prefLabel "Research Centre Sepulchral Music"@en, "Forschungsstelle Sepulkralmusik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-176>
+  dct:identifier "176";
+  skos:prefLabel "Research Centre Studio for the Digitisation of Historical Sound Recording Media"@en,
+    "Forschungsstelle Studio zur Digitalisierung historischer Tonträger"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-177>
+  dct:identifier "177";
+  skos:prefLabel "Institute for Church Music"@en, "Institut für Kirchenmusik"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-178>
+  dct:identifier "178";
+  skos:prefLabel "Institute for Composition and Music Theory"@en, "Institut für Komposition und Musiktheorie"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-179>
+  dct:identifier "179";
+  skos:prefLabel "Institute for Music and Media"@en, "Institut für Musik und Medien"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-180>
+  dct:identifier "180";
+  skos:prefLabel "Schumann Junior Institute"@en, "Institut Schumann Junior"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-181>
+  dct:identifier "181";
+  skos:prefLabel "Institute of Musicology"@en, "Musikwissenschaftliches Institut"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-182>
+  dct:identifier "182";
+  skos:prefLabel "Doctoral Programme Musicology (Dr. Phil.)"@en, "Promotionsstudiengang Musikwissenschaft (Dr.phil.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-183>
+  dct:identifier "183";
+  skos:prefLabel "Study Programme Klang und Realität (M.Mus.)"@en, "Studiengang Klang und Realität (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-184>
+  dct:identifier "184";
+  skos:prefLabel "Study Programme Artistic Music Production (M.Mus.)"@en, "Studiengang Künstlerische Musikproduktion (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-185>
+  dct:identifier "185";
+  skos:prefLabel "Study Programme Music Performance | Voice major (B.Mus.)"@en, "Studiengang Musik | Gesang (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-186>
+  dct:identifier "186";
+  skos:prefLabel "Study Programme Music Performance | Voice major (M.Mus.)"@en, "Studiengang Musik | Gesang (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-187>
+  dct:identifier "187";
+  skos:prefLabel "Study Programme Music Performance | Guitar major (B.Mus.)"@en, "Studiengang Musik | Gitarre (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-188>
+  dct:identifier "188";
+  skos:prefLabel "Study Programme Music Performance | Guitar major (M.Mus.)"@en, "Studiengang Musik | Gitarre (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-189>
+  dct:identifier "189";
+  skos:prefLabel "Study Programme Music Performance | Piano major (B.Mus.)"@en, "Studiengang Musik | Klavier (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-190>
+  dct:identifier "190";
+  skos:prefLabel "Study Programme Music Performance | Piano major (M.Mus.)"@en, "Studiengang Musik | Klavier (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-191>
+  dct:identifier "191";
+  skos:prefLabel "Study Programme Music Performance | Composition (B.Mus.)"@en, "Studiengang Musik | Komposition (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-192>
+  dct:identifier "192";
+  skos:prefLabel "Study Programme Music Performance | Composition (M.Mus.)"@en, "Studiengang Musik | Komposition (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-193>
+  dct:identifier "193";
+  skos:prefLabel "Study Programme Orchestral Instruments (B.Mus.)"@en, "Studiengang Musik | Orchesterinstrumente (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-194>
+  dct:identifier "194";
+  skos:prefLabel "Study Programme Orchestral Instruments (M.Mus.)"@en, "Studiengang Musik | Orchesterinstrumente (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-195>
+  dct:identifier "195";
+  skos:prefLabel "Study Programme Music Performance | Organ major (B.Mus.)"@en, "Studiengang Musik | Orgel (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-196>
+  dct:identifier "196";
+  skos:prefLabel "Study Programme Music Performance | Organ major (M.Mus.)"@en, "Studiengang Musik | Orgel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-197>
+  dct:identifier "197";
+  skos:prefLabel "Study Programme Music and Media (B.Mus.)"@en, "Studiengang Musik und Medien (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-198>
+  dct:identifier "198";
+  skos:prefLabel "Study Programme Music Promotion | Conducting (Choral Conducting) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Chorleitung (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-199>
+  dct:identifier "199";
+  skos:prefLabel "Study Programme Music Promotion | Conducting (Choral Conducting) (M.Mus.)"@en,
+    "Studiengang Musikvermittlung | Chorleitung (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-200>
+  dct:identifier "200";
+  skos:prefLabel "Study Programme Music Promotion | Church Music (protestant) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (evangelisch) (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-201>
+  dct:identifier "201";
+  skos:prefLabel "Study Programme Music Promotion | Church Music (protestant) (M.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (evangelisch) (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-202>
+  dct:identifier "202";
+  skos:prefLabel "Study Programme Music Promotion | Church Music (catholic) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (katholisch) (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-203>
+  dct:identifier "203";
+  skos:prefLabel "Study Programme Music Promotion | Church Music (catholic) (M.Mus.)"@en,
+    "Studiengang Musikvermittlung | Kirchenmusik (katholisch) (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-204>
+  dct:identifier "204";
+  skos:prefLabel "Study Programme Music Promotion | Music Pedagogy (B.Mus.)"@en, "Studiengang Musikvermittlung | Musikpädagogik (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-205>
+  dct:identifier "205";
+  skos:prefLabel "Study Programme Music Promotion | Music Pedagogy (M.Mus.)"@en, "Studiengang Musikvermittlung | Musikpädagogik (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-206>
+  dct:identifier "206";
+  skos:prefLabel "Study Programme Music Promotion | Musiktherorie und Hörerziehung (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Musiktherorie und Hörerziehung (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-207>
+  dct:identifier "207";
+  skos:prefLabel "Study Programme Music Promotion | Conducting (Orchestral Conducting) (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Orchesterleitung (B.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-208>
+  dct:identifier "208";
+  skos:prefLabel "Study Programme Music Promotion | Music Theory/Aural Skills Training (B.Mus.)"@en,
+    "Studiengang Musikvermittlung | Orchesterleitung (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-209>
+  dct:identifier "209";
+  skos:prefLabel "Study Programme Musicology (B.A./Dual-subject Bachelor)"@en, "Studiengang Musikwissenschaft (B.A./ Zwei-Fach-Bachelor)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-210>
+  dct:identifier "210";
+  skos:prefLabel "Study Programme Musicology (M.A.)"@en, "Studiengang Musikwissenschaft (M.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-211>
+  dct:identifier "211";
+  skos:prefLabel "Study Programme Orchestral Playing (M.Mus.)"@en, "Studiengang Orchesterspiel (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-212>
+  dct:identifier "212";
+  skos:prefLabel "Study Programme Audio and Video (B.Eng.)"@en, "Studiengang Ton und Bild (B.Eng)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213>
+  dct:identifier "213";
+  skos:prefLabel "Cooperations"@en, "Kooperationen"@de .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-214>
+  dct:identifier "214";
+  skos:prefLabel "Music Studies for the Armed Forces"@en, "Ausbildungsmusikkorps der Bundeswehr"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-215>
+  dct:identifier "215";
+  skos:prefLabel "College for Music and Art Montepulciano"@en, "Kolleg für Musik und Kunst Montepulciano"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213>;
+  skos:definition "Kooperation der sieben Kunst- und Musikhochschulen NRW."@de, "Cooparation of the seven Art and Music Universities in NRW."@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-216>
+  dct:identifier "216";
+  skos:prefLabel "NRW Orchestra Centre"@en, "Orchesterzentrum|NRW"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-217>
+  dct:identifier "217";
+  skos:prefLabel "Erich Thienhaus Institute"@en, "Erich-Thienhaus-Institut"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44>;
+  skos:definition "Wiege der Tonmeisterausbildung, gegründet 1949 von Erich Thienhaus an der Nordwestdeutschen Musikakademie (heute Hochschule für Musik Detmold). [Quelle: www.eti.hfm-detmold.de, zul. aufgerufen: 03.04.2024]"@de,
+    "Cradle of the Tonmeister education, founded by Erich Thienhaus in 1949 at Nordwestdeutsche Musikakademie (today Hochschule für Musik Detmold)."@en .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-218>
+  dct:identifier "218";
+  skos:prefLabel "Department 1 (Orchestral Instruments and Orchestral Conducting)"@en,
+    "Fachbereich 1 (Orchesterinstrumente und Orchesterleitung)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-219>
+  dct:identifier "219";
+  skos:prefLabel "Department 2 (Keyboard Instruments and Vocals)"@en, "Fachbereich 2 (Tasteninstrumente und Gesang)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-220>
+  dct:identifier "220";
+  skos:prefLabel "Department 3 (Composition, Music Theory, School Music, Instrumental and Vocal Pedagogy, Elementary Music Pedagogy, Choral Conducting, Church Music, Music Broadcasting)"@en,
+    "Fachbereich 3 (Komposition, Musiktheorie, Schulmusik, Instrumental- und Gesangspädagogik, Elementare Musikpädagogik, Chorleitung, Kirchenmusik, Musikübertragung)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-221>
+  dct:identifier "221";
+  skos:prefLabel "Study Programme Master of Music | Oboe | Solist (M.Mus.)"@en, "Studiengang Master of Music | Oboe | Solist (M.Mus.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-222>
+  dct:identifier "222";
+  skos:prefLabel "Studiengang Master of Music | Music Education/Music Management"@en,
+    "Studiengang Master of Music | Musikvermittlung/Musikmanagement"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-223>
+  dct:identifier "223";
+  skos:prefLabel "Hochschule Düsseldorf - University of Applied Sciences"@en, "Hochschule Düsseldorf - University of Applied Sciences"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-224>
+  dct:identifier "224";
+  skos:prefLabel "Kunstakademie Düsseldorf"@en, "Kunstakademie Düsseldorf"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-225>
+  dct:identifier "225";
+  skos:prefLabel "Royal Academy of Art, The Hague (KABK)"@en, "Royal Academy of Art, The Hague (KABK)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-226>
+  dct:identifier "226";
+  skos:prefLabel "Folkwang Tanzstudio"@en, "Folkwang Tanzstudio"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-227>
+  dct:identifier "227";
+  skos:prefLabel "ArtEZ Hogeschool voor de Kunsten | Dance Artist (B.A.)"@en, "ArtEZ Hogeschool voor de Kunsten | Dance Artist (B.A.)"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-228>
+  dct:identifier "228";
+  skos:prefLabel "tanzhaus nrw"@en, "tanzhaus nrw"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-70>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-71>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-72>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-73>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-74>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-75>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-76>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-77>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-78>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-79>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-80>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-81>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-82>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-84>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-85>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-86>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-87>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-88>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-89>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-90>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-91>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-92>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-93>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-94>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-95>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-96>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-97>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-98>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-99>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-100>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-101>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-102>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-103>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-104>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-105>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-106>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-107>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-108>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-109>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-110>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-111>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-112>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-113>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-114>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-115>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-116>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-117>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-118>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-119>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-120>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-121>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-122>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-123>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-124>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-125>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-126>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-127>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-128>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-129>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-130>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-131>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-132>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-133>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-134>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-135>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-136>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-137>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-138>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-139>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-140>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-141>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-142>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-143>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-144>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-145>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-146>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-147>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-148>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-149>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-150>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-151>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-152>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-153>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-154>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-155>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-84>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-85>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-86>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-87>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-88>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-89>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-90>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-91>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-92>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-93>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-94>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-95>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-96>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-97>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-98>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-99>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-100>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-101>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-102>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-103>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-104>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-105>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-106>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-107>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-108>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-109>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-110>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-111>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-112>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-113>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-114>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-115>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-116>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-117>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-118>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-119>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-120>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-121>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-122>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-123>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-124>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-125>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-126>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-127>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-128>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-129>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-130>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-131>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-132>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-133>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-134>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-135>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-136>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-137>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-138>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-139>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-140>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-141>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-142>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-143>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-144>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-145>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-146>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-147>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-148>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-149>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-150>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-151>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-152>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-153>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-154>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-155>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-157>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-158>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-159>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-160>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-161>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-162>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-163>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-164>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-165>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-166>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-167>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-168>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-157>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-158>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-159>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-160>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-161>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-162>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-163>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-164>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-165>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-166>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-167>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-168>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-170>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-171>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-172>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-173>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-174>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-175>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-176>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-177>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-178>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-179>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-180>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-181>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-182>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-183>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-184>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-185>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-186>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-187>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-188>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-189>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-190>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-191>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-192>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-193>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-194>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-195>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-196>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-197>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-198>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-199>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-200>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-201>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-202>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-203>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-204>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-205>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-206>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-207>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-208>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-209>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-210>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-211>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-212>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-170>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-171>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-172>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-173>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-174>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-175>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-176>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-177>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-178>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-179>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-180>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-181>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-182>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-183>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-184>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-185>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-186>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-187>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-188>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-189>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-190>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-191>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-192>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-193>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-194>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-195>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-196>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-197>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-198>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-199>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-200>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-201>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-202>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-203>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-204>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-205>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-206>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-207>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-208>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-209>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-210>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-211>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-212>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-214>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-215>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-216>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-223>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-224>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-225>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-227>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-228>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-214>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-215>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-216>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-217>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-218>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-219>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-220>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-221>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-222>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-223>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-224>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-225>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-226>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-227>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-228>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-2>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-3>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-4>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-5>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-6>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-7>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-8>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-9>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-10>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-11>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-12>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-13>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-14>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-15>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-16>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-17>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-18>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-19>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-20>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-21>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-22>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-23>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-24>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-25>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-26>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-27>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-28>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-29>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-30>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-31>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-32>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-33>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-34>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-35>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-36>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-37>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-38>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-39>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-40>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-41>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-42>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-43>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-226>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-45>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-46>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-47>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-48>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-49>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-50>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-51>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-52>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-53>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-54>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-55>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-56>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-57>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-58>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-59>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-60>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-61>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-62>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-63>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-64>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-65>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-66>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-67>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-68>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-69>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-70>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-71>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-72>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-73>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-74>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-75>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-76>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-77>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-78>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-79>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-80>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-81>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-82>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-217>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-218>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-219>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-220>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-221>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-222>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-2>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-3>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-4>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-5>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-6>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-7>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-8>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-9>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-10>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-11>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-12>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-13>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-14>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-15>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-16>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-17>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-18>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-19>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-20>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-21>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-22>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-23>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-24>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-25>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-26>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-27>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-28>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-29>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-30>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-31>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-32>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-33>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-34>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-35>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-36>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-37>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-38>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-39>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-40>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-41>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-42>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-43>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-45>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-46>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-47>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-48>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-49>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-50>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-51>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-52>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-53>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-54>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-55>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-56>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-57>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-58>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-59>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-60>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-61>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-62>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-63>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-64>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-65>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-66>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-67>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-68>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-69>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units>
+  a skos:ConceptScheme;
+  skos:hasTopConcept <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-1>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-44>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-83>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-156>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-169>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/organisational-units#organisational-unit-213> .
