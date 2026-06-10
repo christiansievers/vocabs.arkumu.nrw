@@ -12,12 +12,12 @@ arkumu-role: a skos:ConceptScheme ;
 
 arkumu-role:role-1 a skos:Concept ;
     skos:prefLabel "1. Kameraassistenz"@de, "1st assistant camera"@en ;
-   skos:altLabel> "1. Kameraassistentin"@de, "1. Kameraassistent"@de, "camera operator"@en,
+   skos:altLabel "1. Kameraassistentin"@de, "1. Kameraassistent"@de, "camera operator"@en,
     "focus puller"@en ;
     skos:topConceptOf arkumu-role: .
 
 arkumu-role:role-2 a skos:Concept ;
     skos:prefLabel "2. Kameraassistenz"@de, "2nd assistant camera"@en;
-    skos:altLabel> "2. Kamerassistentin"@de, "2. Kamerassistent"@de, "clapper loader"@en,
+    skos:altLabel "2. Kamerassistentin"@de, "2. Kamerassistent"@de, "clapper loader"@en,
     "film loader"@en ;
     skos:topConceptOf arkumu-role: .
