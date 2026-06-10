@@ -20,9 +20,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> dct:title "Roles";
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> dct:title "Roles"@en,
+    "Rollen"@de;
   dct:description "Rollen, die Akteur:innen in Ereignissen haben können"@de, "Roles that Actors can have in Events"@en;
-  skos:editorialNote "URI noch zu klären"@de .
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-1> dct:identifier
     "1";
@@ -2397,9 +2400,11 @@
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-332> dct:identifier
     "332";
-  skos:prefLabel "Musicaldarsteller:in"@de, "musical theatre actor"@en;
+  skos:prefLabel "Musicaldarsteller:in"@de;
   skos:altLabel "Musicaldarstellerin"@de, "Musical-Darstellerin"@de, "Musical-Darsteller"@de,
-    "Musicaldarsteller"@de, "musical theater actor"@en;
+    "Musicaldarsteller"@de;
+  skos:prefLabel "musical theatre actor"@en;
+  skos:altLabel "musical theater actor"@en;
   skos:exactMatch <http://www.wikidata.org/entity/Q1954956>, <https://d-nb.info/gnd/4170790-4>,
     <https://d-nb.info/gnd/4565284-3> .
 
@@ -3528,11 +3533,14 @@
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-296> a skos:Concept .
 
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-297> a skos:Concept .
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-297> a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-298> a skos:Concept .
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-298> a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-299> a skos:Concept .
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-299> a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-300> a skos:Concept;
   skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
@@ -4976,15 +4984,13 @@
   skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-285> skos:inScheme
-    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles>;
-  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-286> skos:inScheme
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-287> skos:inScheme
-    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles>;
-  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-288> skos:inScheme
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
@@ -5008,15 +5014,6 @@
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-296> skos:inScheme
-    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
-
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-297> skos:inScheme
-    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
-
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-298> skos:inScheme
-    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
-
-<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-299> skos:inScheme
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> a skos:ConceptScheme;
@@ -5099,7 +5096,12 @@
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-266>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-267>,
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-269>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-270>,
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-271>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-283>,
-    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-284>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-285>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-284>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-285> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-285> skos:topConceptOf
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> skos:hasTopConcept
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-287>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-288>,
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-292>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-293>,
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-294>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-295>,
@@ -5142,6 +5144,9 @@
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-400>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-401>,
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-402>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-403>,
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-404>, <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-405> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-287> skos:topConceptOf
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
 
 <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles#role-288> skos:topConceptOf
     <https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles> .
