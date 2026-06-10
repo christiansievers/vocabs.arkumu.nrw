@@ -1,0 +1,1606 @@
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vocab: <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>
+  dct:title "Information Storage Medium Types"@en, "Informationsträgertypen"@de;
+  dct:description "Informationsträgertypen klassifizieren physische Informationsträger"@de,
+    "Information Storage Medium Types classify physical Information Storage Media"@en;
+  dct:created "2026-06-10"^^xsd:date;
+  skos:editorialNote "URI noch zu klären"@de;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>
+  a skos:Concept;
+  dct:identifier "1";
+  skos:prefLabel "Videocassette"@en, "Videokassette"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q121141504>, <https://d-nb.info/gnd/4188225-8>,
+    <https://vocab.getty.edu/aat/300028692>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Videocassette> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-2>
+  a skos:Concept;
+  dct:identifier "2";
+  skos:prefLabel "Betacam"@en, "Betacam"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q830910>, <https://vocab.getty.edu/aat/300264686>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Betacam> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-3>
+  a skos:Concept;
+  dct:identifier "3";
+  skos:prefLabel "Betacam SP"@en, "Betacam SP"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-2>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q830904>, <https://vocab.getty.edu/aat/300264687> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-4>
+  a skos:Concept;
+  dct:identifier "4";
+  skos:prefLabel "Betacam SX"@en, "Betacam SX"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-2>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q361797>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#BetacamSX> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-5>
+  a skos:Concept;
+  dct:identifier "5";
+  skos:prefLabel "Betamax"@en, "Betamax"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q690148>, <https://vocab.getty.edu/aat/300404417>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Betamax> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-6>
+  a skos:Concept;
+  dct:identifier "6";
+  skos:prefLabel "Catrivision"@en, "Catrivision"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5047444>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Catrivision> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-7>
+  a skos:Concept;
+  dct:identifier "7";
+  skos:prefLabel "D1"@en, "D1"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1151486>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D1> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-8>
+  a skos:Concept;
+  dct:identifier "8";
+  skos:prefLabel "D2"@en, "D2"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1158883>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D2> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-9>
+  a skos:Concept;
+  dct:identifier "9";
+  skos:prefLabel "D3"@en, "D3"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q736474>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D3> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-10>
+  a skos:Concept;
+  dct:identifier "10";
+  skos:prefLabel "D5"@en, "D5"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2738019>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D5> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-11>
+  a skos:Concept;
+  dct:identifier "11";
+  skos:prefLabel "D6"@en, "D6"@de;
+  skos:altLabel "D6-VTR"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3700253>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D6> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-12>
+  a skos:Concept;
+  dct:identifier "12";
+  skos:prefLabel "D9"@en, "D9"@de;
+  skos:altLabel "D-9"@en, "Digital S"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1151555>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#D9> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-13>
+  a skos:Concept;
+  dct:identifier "13";
+  skos:prefLabel "DCT"@en, "DCT"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3700309>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DCT> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-14>
+  a skos:Concept;
+  dct:identifier "14";
+  skos:prefLabel "Digital Betacam"@en, "Digital Betacam"@de;
+  skos:altLabel "DigiBeta"@en, "D-Beta"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1751553>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DigitalBetacam> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-15>
+  a skos:Concept;
+  dct:identifier "15";
+  skos:prefLabel "Digital8"@en, "Digital8"@de;
+  skos:altLabel "Digital 8"@en, "Di8"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q930337>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Digital8> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-16>
+  a skos:Concept;
+  dct:identifier "16";
+  skos:prefLabel "DV"@en, "DV"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3796889>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DV> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-17>
+  a skos:Concept;
+  dct:identifier "17";
+  skos:prefLabel "DVCAM"@en, "DVCAM"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1361160>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DVCAM> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-18>
+  a skos:Concept;
+  dct:identifier "18";
+  skos:prefLabel "DVCPRO"@en, "DVCPRO"@de;
+  skos:altLabel "DVCPro 25"@en, "DVCPro 50"@en, "DVCPro Progressive"@en, "DVCPro HD"@en,
+    "P2"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20183259>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DVCPRO> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-19>
+  a skos:Concept;
+  dct:identifier "19";
+  skos:prefLabel "HDCAM"@en, "HDCAM"@de;
+  skos:altLabel "HDCAM SR"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1194529>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#HDCAM> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-20>
+  a skos:Concept;
+  dct:identifier "20";
+  skos:prefLabel "HDV"@en, "HDV"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1563058>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#HDV> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-21>
+  a skos:Concept;
+  dct:identifier "21";
+  skos:prefLabel "Hi8"@en, "Hi8"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2302273>, <https://vocab.getty.edu/aat/300264682>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Hi8> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-22>
+  a skos:Concept;
+  dct:identifier "22";
+  skos:prefLabel "MII"@en, "MII"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3841334>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#MII> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-23>
+  a skos:Concept;
+  dct:identifier "23";
+  skos:prefLabel "MiniDV"@en, "MiniDV"@de;
+  skos:altLabel "DVC"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6957908>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#MiniDV> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-24>
+  a skos:Concept;
+  dct:identifier "24";
+  skos:prefLabel "U-matic"@en, "U-matic"@de;
+  skos:altLabel "U-matic S"@en, "U-matic SP"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q278080>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Umatic> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-25>
+  a skos:Concept;
+  dct:identifier "25";
+  skos:prefLabel "V-Cord"@en, "V-Cord"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5929966>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Vcord> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-26>
+  a skos:Concept;
+  dct:identifier "26";
+  skos:prefLabel "VHS"@en, "VHS"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q183976>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#VHS> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-27>
+  a skos:Concept;
+  dct:identifier "27";
+  skos:prefLabel "S-VHS"@en, "S-VHS"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-26>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1050875> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-28>
+  a skos:Concept;
+  dct:identifier "28";
+  skos:prefLabel "VHS-C"@en, "VHS-C"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-26>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q549855> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-29>
+  a skos:Concept;
+  dct:identifier "29";
+  skos:prefLabel "Video8"@en, "Video8"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1155472>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#Video8> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-30>
+  a skos:Concept;
+  dct:identifier "30";
+  skos:prefLabel "VX"@en, "VX"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7907690>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#VX> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>
+  a skos:Concept;
+  dct:identifier "31";
+  skos:prefLabel "Open Reel Videotape"@en, "Videoband"@de;
+  skos:altLabel "Offenspule Video"@de, "Offene Videobandspule"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q29167500>, <https://vocab.getty.edu/aat/300450676>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#OpenReelVideoTape> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-32>
+  a skos:Concept;
+  dct:identifier "32";
+  skos:prefLabel "1 Inch Type A Videotape"@en, "1 Zoll A Videoband"@de;
+  skos:altLabel "SMPTE Type A"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3597951> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-33>
+  a skos:Concept;
+  dct:identifier "33";
+  skos:prefLabel "1 Inch Type B Videotape"@en, "1 Zoll B Videoband"@de;
+  skos:altLabel "SMPTE Type B"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3597955> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-34>
+  a skos:Concept;
+  dct:identifier "34";
+  skos:prefLabel "1 Inch Type C Videotape"@en, "1 Zoll C Videoband"@de;
+  skos:altLabel "SMPTE Type C"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q209020>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#1InchVideotape> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-35>
+  a skos:Concept;
+  dct:identifier "35";
+  skos:prefLabel "1/2 Inch Videotape"@en, "1/2 Zoll Videoband"@de;
+  skos:altLabel "EIAJ-1"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3748136>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#HalfInchVideotape> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-36>
+  a skos:Concept;
+  dct:identifier "36";
+  skos:prefLabel "1/4 Inch Videotape"@en, "1/4 Zoll Videoband"@de;
+  skos:altLabel "Akai Video Tape"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4700172>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#QuarterInchVideotape> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-37>
+  a skos:Concept;
+  dct:identifier "37";
+  skos:prefLabel "2 Inch Videotape"@en, "2 Zoll Videoband"@de;
+  skos:altLabel "Quadruplex"@en, "Octaplex"@en, "VR-1500"@en, "VR-1600"@en, "IVC-9000"@en,
+    "Helical SV-201"@en, "ACR 25"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122763358>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#2InchVideotape> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>
+  a skos:Concept;
+  dct:identifier "38";
+  skos:prefLabel "Optical Video Disc"@en, "Optischer Videodatenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q234870>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#OpticalVideoDisc> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-39>
+  a skos:Concept;
+  dct:identifier "39";
+  skos:prefLabel "Blu-ray Video Disc"@en, "Blu-ray Video Disc"@de;
+  skos:altLabel "Video-BD"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47770>, <https://d-nb.info/gnd/7597887-8>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#BluRayDisc> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-40>
+  a skos:Concept;
+  dct:identifier "40";
+  skos:prefLabel "Video-DVD"@en, "Video-DVD"@de;
+  skos:altLabel "Video DVD+R"@en, "Video DVD+R DL"@en, "Video DVD-R"@en, "Video DVD-RW"@en,
+    "Video DVD+RW"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5294>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DVD> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-41>
+  a skos:Concept;
+  dct:identifier "41";
+  skos:prefLabel "EVD"@en, "EVD"@de;
+  skos:altLabel "Enhanced Versatile Disc"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1152899>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#EVD> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-42>
+  a skos:Concept;
+  dct:identifier "42";
+  skos:prefLabel "LaserDisc"@en, "LaserDisc"@de;
+  skos:altLabel "CAV"@en, "CLV"@en, "CAA"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q273309>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#LaserDisc> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-43>
+  a skos:Concept;
+  dct:identifier "43";
+  skos:prefLabel "Video CD"@en, "Video CD"@de;
+  skos:altLabel "VCD"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q321259>, <https://d-nb.info/gnd/4654578-5> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-44>
+  a skos:Concept;
+  dct:identifier "44";
+  skos:prefLabel "Super Video CD"@en, "Super Video CD"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q428159>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#SuperVideoCD> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-45>
+  a skos:Concept;
+  dct:identifier "45";
+  skos:prefLabel "Universal Media Disc"@en, "Universal Media Disc"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270309>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#UniversalMediaDisc> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-46>
+  a skos:Concept;
+  dct:identifier "46";
+  skos:prefLabel "XDCAM Disc"@en, "XDCAM Disc"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1153113> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>
+  a skos:Concept;
+  dct:identifier "47";
+  skos:prefLabel "Mechanical Audio Storage Medium"@en, "Mechanischer Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123117748> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-48>
+  a skos:Concept;
+  dct:identifier "48";
+  skos:prefLabel "Dictabelt"@en, "Dictabelt"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5273930>, <https://vocab.getty.edu/aat/300424575>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#GroovedDictabelt> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-49>
+  a skos:Concept;
+  dct:identifier "49";
+  skos:prefLabel "Phonograph Cylinder"@en, "Phonographenwalze"@de;
+  skos:altLabel "Phonograph Roll"@en, "Audio Cylinder"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q691783>, <https://d-nb.info/gnd/4536294-4>,
+    <https://vocab.getty.edu/aat/300420461> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-50>
+  a skos:Concept;
+  dct:identifier "50";
+  skos:prefLabel "Normal Groove Cylinder"@en, "Normalspiel-Walze"@de;
+  skos:altLabel "2 Minute Cylinder"@en, "Two Minute Cylinder"@en, "2-Minuten-Walze"@de,
+    "2-Minuten-Zylinder"@de, "Zwei-Minuten-Walze"@de, "Zwei-Minuten-Zylinder"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-49>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123117896> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-51>
+  a skos:Concept;
+  dct:identifier "51";
+  skos:prefLabel "Narrow Groove Cylinder"@en, "Langspiel-Walze"@de;
+  skos:altLabel "4 Minute Cylinder"@en, "Four Minute Cylinder"@en, "4-Minuten-Walze"@de,
+    "4-Minuten-Zylinder"@de, "Vier-Minuten-Walze"@de, "Vier-Minuten-Zylinder"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-49>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123117963> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-52>
+  a skos:Concept;
+  dct:identifier "52";
+  skos:prefLabel "Dictation Cylinder"@en, "Diktat-Zylinder"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-49>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118001>, <https://vocab.getty.edu/aat/300424576> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-53>
+  a skos:Concept;
+  dct:identifier "53";
+  skos:prefLabel "Grooved Analog Disc"@en, "Schallplatte"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q16629185>, <https://d-nb.info/gnd/4052032-8>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#GroovedAnalogDisc> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-54>
+  a skos:Concept;
+  dct:identifier "54";
+  skos:prefLabel "Coarse Groove Record"@en, "Normalrillen-Schallplatte"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-53>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118095>, <https://d-nb.info/gnd/4135113-7> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-55>
+  a skos:Concept;
+  dct:identifier "55";
+  skos:prefLabel "Microgroove Record"@en, "Mikrorillen-Schallplatte"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-53>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q86816874> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-56>
+  a skos:Concept;
+  dct:identifier "56";
+  skos:prefLabel "Tefifon Tape"@en, "Tefifon-Band"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1676393> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-57>
+  a skos:Concept;
+  dct:identifier "57";
+  skos:prefLabel "Magnetic Audio Storage Medium"@en, "Magnetischer Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118470> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>
+  a skos:Concept;
+  dct:identifier "58";
+  skos:prefLabel "Magnetic Audio Tape"@en, "Magnettonband"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-57>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118513>, <https://d-nb.info/gnd/4135867-3> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-59>
+  a skos:Concept;
+  dct:identifier "59";
+  skos:prefLabel "Open Reel Audiotape"@en, "Spulentonband"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q544858>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#OpenReelAudiotape> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-60>
+  a skos:Concept;
+  dct:identifier "60";
+  skos:prefLabel "Audio Cassette"@en, "Kompaktkassette"@de;
+  skos:altLabel "CC"@en, "MC"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q149757>, <https://d-nb.info/gnd/4036993-6> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-61>
+  a skos:Concept;
+  dct:identifier "61";
+  skos:prefLabel "Executive Cassette"@en, "Executive Cassette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122763527> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-62>
+  a skos:Concept;
+  dct:identifier "62";
+  skos:prefLabel "Mini-Cassette"@en, "Minikassette"@de;
+  skos:altLabel "Minicassette"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1936845>, <https://vocab.getty.edu/aat/300310081>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#MiniCassette> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-63>
+  a skos:Concept;
+  dct:identifier "63";
+  skos:prefLabel "Microcassette"@en, "Mikrokassette"@de;
+  skos:altLabel "MC"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1509636> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-64>
+  a skos:Concept;
+  dct:identifier "64";
+  skos:prefLabel "Picocassette"@en, "Picocassette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7191037> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-65>
+  a skos:Concept;
+  dct:identifier "65";
+  skos:prefLabel "Fidelipac"@en, "Fidelipac"@de;
+  skos:altLabel "NAB cartridge"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2340980> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-66>
+  a skos:Concept;
+  dct:identifier "66";
+  skos:prefLabel "Stereo-Pak"@en, "Stereo-Pak"@de;
+  skos:altLabel "4-track Cartridge"@en, "4-track Tape"@en, "4-Spur-Kassette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7611194> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-67>
+  a skos:Concept;
+  dct:identifier "67";
+  skos:prefLabel "8-track Tape"@en, "8-Spur-Kassette"@de;
+  skos:altLabel "Stereo 8"@en, "Eight-track Cartridge"@en, "Acht-Spur-Kassette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270171>, <https://d-nb.info/gnd/7690297-3>,
+    <https://vocab.getty.edu/aat/300423982>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#8Track> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-68>
+  a skos:Concept;
+  dct:identifier "68";
+  skos:prefLabel "Magnetic Sound Disc"@en, "Magnettonplatte"@de;
+  skos:altLabel "Astromag"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-57>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1416388> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-69>
+  a skos:Concept;
+  dct:identifier "69";
+  skos:prefLabel "Wire Recording"@en, "Tondraht"@de;
+  skos:altLabel "Drahtton"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-57>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q116822101>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#WireRecording> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-70>
+  a skos:Concept;
+  dct:identifier "70";
+  skos:prefLabel "Optical Audio Storage Medium"@en, "Optischer Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118558> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-71>
+  a skos:Concept;
+  dct:identifier "71";
+  skos:prefLabel "Optical Sound Film"@en, "Lichttonfilm"@de;
+  skos:altLabel "Triergon Film"@en, "Light Ray Film"@en, "Triergon-Film"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-70>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1004803> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-72>
+  a skos:Concept;
+  dct:identifier "72";
+  skos:prefLabel "Digital Audio Storage Medium"@en, "Digitaler Tonträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118716> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>
+  a skos:Concept;
+  dct:identifier "73";
+  skos:prefLabel "Magneto-digital Audio Storage Medium"@en, "Magneto-digitaler Tonträger"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-72>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123118830> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-74>
+  a skos:Concept;
+  dct:identifier "74";
+  skos:prefLabel "DASH Open Reel Tape"@en, "DASH-Tonband"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q497444> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-75>
+  a skos:Concept;
+  dct:identifier "75";
+  skos:prefLabel "Pro Digi Open Reel Tape"@en, "Pro-Digi-Tonband"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7246653> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-76>
+  a skos:Concept;
+  dct:identifier "76";
+  skos:prefLabel "PCM Betamax"@en, "PCM Betamax"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123119962>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#PCMBetamax> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-77>
+  a skos:Concept;
+  dct:identifier "77";
+  skos:prefLabel "PCM U-Matic"@en, "PCM U-Matic"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120037>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#PCMUmatic> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-78>
+  a skos:Concept;
+  dct:identifier "78";
+  skos:prefLabel "PCM VHS"@en, "PCM VHS"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120103>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#PCMVHS> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-79>
+  a skos:Concept;
+  dct:identifier "79";
+  skos:prefLabel "DAT"@en, "DAT"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q597615>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#DAT> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-80>
+  a skos:Concept;
+  dct:identifier "80";
+  skos:prefLabel "ADAT"@en, "ADAT"@de;
+  skos:altLabel "Alesis Digital Audio Tape"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q959675> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-81>
+  a skos:Concept;
+  dct:identifier "81";
+  skos:prefLabel "DTRS"@en, "DTRS"@de;
+  skos:altLabel "Digital Tape Recording System"@en, "DARS"@en, "DA-88"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q938907>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#DTRS> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-82>
+  a skos:Concept;
+  dct:identifier "82";
+  skos:prefLabel "Digital Compact Cassette"@en, "Digital Compact Cassette"@de;
+  skos:altLabel "DCC"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q598944> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-83>
+  a skos:Concept;
+  dct:identifier "83";
+  skos:prefLabel "NT cassette"@en, "NT Cassette"@de;
+  skos:altLabel "NT-Kassette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1961581> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>
+  a skos:Concept;
+  dct:identifier "84";
+  skos:prefLabel "Opto-digital Audio Storage Medium"@en, "Opto-digitaler Tonträger"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-72>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120227> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-85>
+  a skos:Concept;
+  dct:identifier "85";
+  skos:prefLabel "Audio CD"@en, "Audio-CD"@de;
+  skos:altLabel "Compact Disc Digital Audio"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1121020>, <https://d-nb.info/gnd/4346365-4>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#AudioCD> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-86>
+  a skos:Concept;
+  dct:identifier "86";
+  skos:prefLabel "Compact LaserDisc"@en, "Compact LaserDisc"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q123120280> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-87>
+  a skos:Concept;
+  dct:identifier "87";
+  skos:prefLabel "Super Audio CD"@en, "Super Audio CD"@de;
+  skos:altLabel "SACD"@en, "Super Audio Compact Disc"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q212960>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/#SuperAudioCD> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-88>
+  dct:identifier "88";
+  skos:prefLabel "DVD-Audio"@en, "DVD-Audio"@de;
+  skos:altLabel "DVD-A"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q117678>, <https://d-nb.info/gnd/4585129-3> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-89>
+  dct:identifier "89";
+  skos:prefLabel "Blu-ray Audio Disc"@en, "Blu-ray Audio Disc"@de;
+  skos:altLabel "Pure Audio Blu-ray"@en, "High Definition Audio Disc"@en, "HDAD"@en,
+    "High Fidelity Pure Audio"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q17029503>, <https://d-nb.info/gnd/1070506834> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-90>
+  dct:identifier "90";
+  skos:prefLabel "MiniDisc"@en, "MiniDisc"@de;
+  skos:altLabel "MD"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-72>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q275079>, <https://d-nb.info/gnd/4644982-6> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>
+  dct:identifier "91";
+  skos:prefLabel "Moving Image Film"@en, "Bewegtbild-Film"@de;
+  skos:altLabel "Motion Picture Film"@en, "Movie Film"@en, "Cinematographic Film"@en,
+    "Kino-Filmmaterial"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q110968856>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Film> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-92>
+  dct:identifier "92";
+  skos:prefLabel "8 mm Positive Film"@en, "8 mm Positivfilm"@de;
+  skos:altLabel "Normal 8"@en, "8 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270183>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#8mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-93>
+  dct:identifier "93";
+  skos:prefLabel "8 mm Negative Film"@en, "8 mm Negativfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q270183>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#8mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-94>
+  dct:identifier "94";
+  skos:prefLabel "Super 8 mm Positive Film"@en, "Super 8 mm Positivfilm"@de;
+  skos:altLabel "Super 8 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1412320>, <https://vocab.getty.edu/aat/300263860>,
+    <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Super8mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-95>
+  dct:identifier "95";
+  skos:prefLabel "9,5 mm Film"@en, "9,5 mm Film"@de;
+  skos:altLabel "9.5 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q275007>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#9andaHalfmmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-96>
+  dct:identifier "96";
+  skos:prefLabel "16 mm Positive Film"@en, "16 mm Positivfilm"@de;
+  skos:altLabel "16 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q194383>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#16mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-97>
+  dct:identifier "97";
+  skos:prefLabel "16 mm Negative Film"@en, "16 mm Negativfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q194383>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#16mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-98>
+  dct:identifier "98";
+  skos:prefLabel "Super 16 mm Positive Film"@en, "Super 16 mm Positivfilm"@de;
+  skos:altLabel "Super 16 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2713357>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Super16mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-99>
+  dct:identifier "99";
+  skos:prefLabel "Super 16 mm Negative Film"@en, "Super 16 mm Negativfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2713357>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#Super16mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-100>
+  dct:identifier "100";
+  skos:prefLabel "22 mm Positive Film"@en, "22 mm Positivfilm"@de;
+  skos:altLabel "22 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122811318>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#22mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-101>
+  dct:identifier "101";
+  skos:prefLabel "28 mm Positive Film"@en, "28 mm Positivfilm"@de;
+  skos:altLabel "28 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q122811337>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#28mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-102>
+  dct:identifier "102";
+  skos:prefLabel "35 mm Positive Film"@en, "35 mm Positivfilm"@de;
+  skos:altLabel "35 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q226528>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-103>
+  dct:identifier "103";
+  skos:prefLabel "35 mm Negative Film"@en, "35 mm Negativfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q226528>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-104>
+  dct:identifier "104";
+  skos:prefLabel "70 mm Positive Film"@en, "70 mm Positivfilm"@de;
+  skos:altLabel "70 mm Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q261242>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#70mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-105>
+  dct:identifier "105";
+  skos:prefLabel "70 mm Negative Film"@en, "70 mm Negativfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q261242>, <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#70mmFilm> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>
+  dct:identifier "106";
+  skos:prefLabel "Photographic Film"@en, "Fotografischer Film"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6293> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-107>
+  dct:identifier "107";
+  skos:prefLabel "APS Film"@en, "APS-Film"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15781213> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-108>
+  dct:identifier "108";
+  skos:prefLabel "35 mm Photo Film"@en, "Kleinbildfilm"@de;
+  skos:altLabel "135 Film"@en, "Small Format Film"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1051557>, <https://vocab.getty.edu/aat/300263816> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-109>
+  dct:identifier "109";
+  skos:prefLabel "35 mm Reversal Photographic Film"@en, "Diapositiv-Kleinbildfilm"@de;
+  skos:altLabel "35 mm Slide Film"@en, "Umkehr-Kleinbildfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-108>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q166816> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-110>
+  dct:identifier "110";
+  skos:prefLabel "35 mm Negative Photographic Film"@en, "Negativ-Kleinbildfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-108>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q595597> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-111>
+  dct:identifier "111";
+  skos:prefLabel "35 mm Black-and-White Photographic Film"@en, "Schwarzweiß-Kleinbildfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-108>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2254548> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-112>
+  dct:identifier "112";
+  skos:prefLabel "Medium Format"@en, "Mittelformatfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1146074> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-113>
+  dct:identifier "113";
+  skos:prefLabel "Medium Format Reversal Film"@en, "Diapositiv-Mittelformatfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-112>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q166816> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-114>
+  dct:identifier "114";
+  skos:prefLabel "Medium Format Negative Film"@en, "Negativ-Mittelformatfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-112>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q595597> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-115>
+  dct:identifier "115";
+  skos:prefLabel "Medium Format Black-and-White Film"@en, "Schwarzweiß-Mittelformatfilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-112>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2254548> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-116>
+  dct:identifier "116";
+  skos:prefLabel "Large Format"@en, "Großformatfilm"@de;
+  skos:altLabel "Planfilm"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1189460> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-117>
+  dct:identifier "117";
+  skos:prefLabel "Microform"@en, "Mikroform"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q830450> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-118>
+  dct:identifier "118";
+  skos:prefLabel "Mikrofiche"@en, "Mikroplanfilm"@de;
+  skos:altLabel "Mikrofiche"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-117>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2368076> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-119>
+  dct:identifier "119";
+  skos:prefLabel "Microfilm"@en, "Mikrofilm"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-117>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q12498524> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>
+  dct:identifier "120";
+  skos:prefLabel "Optical Storage Medium"@en, "Optischer Datenträger"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2248059> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-121>
+  dct:identifier "121";
+  skos:prefLabel "Data DVD"@en, "Daten-DVD"@de;
+  skos:altLabel "Data DVD+R"@en, "Data DVD+R DL"@en, "Data DVD-R"@en, "Data DVD-RW"@en,
+    "Data DVD+RW"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5294> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-122>
+  dct:identifier "122";
+  skos:prefLabel "Data Blu-ray"@en, "Daten-Blu-ray"@de;
+  skos:altLabel "BD-R"@en, "BD-RE"@en, "Daten-BD"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47770> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-123>
+  dct:identifier "123";
+  skos:prefLabel "M-Disc"@en, "M-Disc"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15727650> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-124>
+  dct:identifier "124";
+  skos:prefLabel "Data CD"@en, "Daten-CD"@de;
+  skos:altLabel "CD-R"@en, "CD+R"@en, "CD-RW"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7982> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-125>
+  dct:identifier "125";
+  skos:prefLabel "Magnetic Storage Medium"@en, "Magnetischer Datenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1364527> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-126>
+  dct:identifier "126";
+  skos:prefLabel "3,5\" Floppy Disk"@en, "3,5\" Diskette"@de;
+  skos:altLabel "3.5 Inch Floppy Disk"@en, "3"@de, "5 Zoll Diskette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-125>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q37753524> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-127>
+  dct:identifier "127";
+  skos:prefLabel "5,25\" Floppy Disk"@en, "5,25\" Diskette"@de;
+  skos:altLabel "5.25 Inch Floppy Disk"@en, "5"@de, "25 Zoll Diskette"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-125>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q55194959> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-128>
+  dct:identifier "128";
+  skos:prefLabel "HD"@en, "HD"@de;
+  skos:altLabel "HDD"@en, "Hard Disk"@en, "Festplatte"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-125>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4439>, <https://d-nb.info/gnd/4192018-1>,
+    <https://vocab.getty.edu/aat/300266294> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-129>
+  dct:identifier "129";
+  skos:prefLabel "Solid State Storage Medium"@en, "Festkörper-Datenträger"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19280237> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-130>
+  dct:identifier "130";
+  skos:prefLabel "SSD"@en, "SSD"@de;
+  skos:altLabel "Solid State Storage"@en, "Solid-State-Speicher"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-129>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q487343> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-131>
+  dct:identifier "131";
+  skos:prefLabel "USB Flash Drive"@en, "USB-Stick"@de;
+  skos:altLabel "Thumb Drive"@en, "USB Thumb Drive"@en, "Flash Memory"@en;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-129>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1647694>, <https://d-nb.info/gnd/4770596-6>,
+    <https://vocab.getty.edu/aat/300404359> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-132>
+  dct:identifier "132";
+  skos:prefLabel "Text Medium"@en, "Schriftstück"@de;
+  skos:altLabel "Record"@en, "Buch"@de, "Publikation"@de, "Akte"@de, "Brief"@de, "Notiz"@de,
+    "Beleg"@de, "Formular"@de, "Urkunde"@de, "technische Zeichnung"@de, "Dokument"@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q49848>, <https://d-nb.info/gnd/4180009-6> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-133>
+  dct:identifier "133";
+  skos:prefLabel "Periodical"@en, "Periodikum"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-132>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1002697>, <https://vocab.getty.edu/aat/300026657> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-134>
+  dct:identifier "134";
+  skos:prefLabel "Monograph"@en, "Monografie"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-132>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193495>, <https://d-nb.info/gnd/4454906-4>,
+    <https://vocab.getty.edu/aat/300060417> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-135>
+  dct:identifier "135";
+  skos:prefLabel "Musical Notation"@en, "Musiknotation"@de;
+  skos:broader <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-132>;
+  skos:exactMatch <http://www.wikidata.org/entity/Q233861>, <https://vocab.getty.edu/aat/300417622> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-88>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-89>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-90>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-92>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-93>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-94>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-95>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-96>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-97>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-98>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-99>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-100>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-101>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-102>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-103>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-104>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-105>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-92>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-93>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-94>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-95>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-96>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-97>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-98>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-99>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-100>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-101>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-102>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-103>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-104>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-105>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-107>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-108>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-112>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-116>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-107>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-108>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-109>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-110>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-111>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-109>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-110>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-111>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-112>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-113>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-114>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-115>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-113>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-114>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-115>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-116>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-117>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-118>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-119>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-118>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-119>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-120>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-121>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-122>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-123>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-124>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-121>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-122>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-123>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-124>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-125>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-126>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-127>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-128>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-126>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-127>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-128>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-129>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-130>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-131>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-130>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-131>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-132>
+  a skos:Concept;
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-133>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-134>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-135>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-133>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-134>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-135>
+  a skos:Concept;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-2>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-5>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-6>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-7>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-8>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-9>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-10>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-11>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-12>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-13>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-14>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-15>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-16>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-17>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-18>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-19>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-20>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-21>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-22>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-23>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-24>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-25>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-26>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-29>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-30>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-2>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-3>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-4>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-26>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-27>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-28>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-32>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-33>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-34>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-35>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-36>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-37>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-39>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-40>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-41>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-42>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-43>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-44>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-45>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-46>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-48>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-49>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-53>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-56>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-49>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-50>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-51>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-52>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-53>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-54>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-55>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-57>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-68>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-69>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-58>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-59>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-60>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-61>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-62>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-63>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-64>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-65>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-66>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-67>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-70>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-71>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-72>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-90>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>;
+  skos:topConceptOf <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-73>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-74>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-75>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-76>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-77>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-78>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-79>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-80>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-81>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-82>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-83>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-84>
+  skos:narrower <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-85>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-86>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-87>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-88>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-89>;
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-3>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-4>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-5>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-6>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-7>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-8>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-9>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-10>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-11>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-12>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-13>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-14>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-15>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-16>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-17>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-18>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-19>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-20>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-21>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-22>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-23>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-24>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-25>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-27>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-28>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-29>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-30>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-32>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-33>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-34>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-35>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-36>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-37>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-39>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-40>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-41>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-42>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-43>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-44>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-45>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-46>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-48>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-50>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-51>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-52>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-54>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-55>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-56>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-59>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-60>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-61>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-62>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-63>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-64>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-65>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-66>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-67>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-68>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-69>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-71>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-74>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-75>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-76>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-77>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-78>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-79>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-80>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-81>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-82>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-83>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-85>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-86>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-87>
+  skos:inScheme <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types> .
+
+<https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types>
+  a skos:ConceptScheme;
+  skos:hasTopConcept <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-1>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-31>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-38>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-47>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-57>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-70>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-72>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-91>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-106>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-117>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-125>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-129>,
+    <https://docs.arkumu.nrw/documentation/controlled-vocabularies/information-storage-medium-types#information-storage-medium-type-132> .
