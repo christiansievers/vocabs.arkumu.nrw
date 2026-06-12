@@ -20,8 +20,8 @@
     {
       "id": "http://w3id.org/arkumu/licenses",
       "title": {
-        "en": "Digital Object Licenses",
-        "de": "Digitales Objekt Lizenzen"
+        "en": "Licenses",
+        "de": "Lizenzen"
       }
     }
   ],
@@ -34,8 +34,8 @@
     {
       "id": "http://w3id.org/arkumu/licenses",
       "title": {
-        "en": "Digital Object Licenses",
-        "de": "Digitales Objekt Lizenzen"
+        "en": "Licenses",
+        "de": "Lizenzen"
       }
     }
   ],
