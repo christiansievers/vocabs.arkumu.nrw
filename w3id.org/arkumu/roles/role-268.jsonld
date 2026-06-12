@@ -29,7 +29,7 @@
   ],
   "inScheme": [
     {
-      "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles",
+      "id": "http://w3id.org/arkumu/roles",
       "title": {
         "en": "Roles",
         "de": "Rollen"
@@ -38,7 +38,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://docs.arkumu.nrw/documentation/controlled-vocabularies/roles"
+      "id": "http://w3id.org/arkumu/roles"
     }
   ],
   "@context": {
